@@ -1,7 +1,14 @@
 # Golang Benchmark - map, slice, array
 
+Run benchmark:
 ```shell
-go test -bench=.                                                          
+make
+```
+
+Results:
+```shell
+Running benchmarks...
+go test -bench=. ./...                                             
 goos: darwin
 goarch: arm64
 pkg: github.com/Nikolay200669/bench_map-slice
